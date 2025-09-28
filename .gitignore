@@ -1,0 +1,53 @@
+```adv ml/.gitignore#L1-999
+# OS artifacts
+.DS_Store
+.DS_Store?
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Sensitive files
+kaggle.json
+
+# Logs and models (large/output files)
+logs/
+models/
+*.csv
+*.png
+training_losses*
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+*.dylib
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+
+# FaceForensic exclusions (if any subfolders/files match)
+FaceForensic*/
+*FaceForensic*
+EOF </dev/null
+
+papers/*

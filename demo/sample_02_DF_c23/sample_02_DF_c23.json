@@ -1,0 +1,25 @@
+{
+  "method": "DF",
+  "method_folder": "Deepfakes",
+  "compression": "c23",
+  "tau_quantile": 0.8,
+  "tau": 16.925051116943358,
+  "device": "mps",
+  "model_path": "/Users/phihu/Desktop/adv ml/models/vae_final.pth",
+  "real": {
+    "landmarks": "/Users/phihu/Desktop/adv ml/data/landmarks/ffpp/original/c23/real/183_landmarks.npy",
+    "video": "/Users/phihu/Desktop/adv ml/data/ffpp_raw/original_sequences/youtube/c23/videos/183.mp4",
+    "clip": "/Users/phihu/Desktop/adv ml/demo/sample_02_DF_c23/sample_02_DF_c23_orig.mp4",
+    "thumbnail": "/Users/phihu/Desktop/adv ml/demo/sample_02_DF_c23/sample_02_DF_c23_orig.jpg",
+    "score": 15.881119048526536,
+    "pred": 0
+  },
+  "fake": {
+    "landmarks": "/Users/phihu/Desktop/adv ml/data/landmarks/ffpp/DF/c23/fake/183_253_landmarks.npy",
+    "video": "/Users/phihu/Desktop/adv ml/data/ffpp_raw/manipulated_sequences/Deepfakes/c23/videos/183_253.mp4",
+    "clip": "/Users/phihu/Desktop/adv ml/demo/sample_02_DF_c23/sample_02_DF_c23_fake.mp4",
+    "thumbnail": "/Users/phihu/Desktop/adv ml/demo/sample_02_DF_c23/sample_02_DF_c23_fake.jpg",
+    "score": 11.88979138031916,
+    "pred": 0
+  }
+}
