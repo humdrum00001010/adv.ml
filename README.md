@@ -20,5 +20,4 @@ This repository contains code, scripts, and resources for an advanced machine le
 - Models and logs are generated during training (ignored).
 - For Kaggle data, add your `kaggle.json` locally.
 
-Contact: [Your info].
-EOF </dev/null
+Contact: humdrum00001010@gmail.com
